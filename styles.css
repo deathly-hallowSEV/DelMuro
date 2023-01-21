@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Luxurious+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+*{
+    box-sizing: border-box;
+    color: #777;
+    font-family: EB Garamond;
+}
+title {
+    font-family: Luxurious script;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.navUL {
+    margin: 0;
+}
+.navUL li{
+    display: inline;
+ 
+
+}
+.navUL a{
+    display: inline-block;
+    padding: 2em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.navUL a:hover{
+    background-color: rgba(255,255, 255,.3);
+}
+.navigation{
+    text-align: center;
+    font-size: 1.1em;
+    border-bottom: 1px solid rgba(255,255, 255,.3);
+    background-color: rgba(0,0, 0,.5);
+
+}
+.restaurant-name{
+    font-size: 5em;
+    color: whitesmoke;
+    font-weight: lighter;
+    font-family: Luxurious script;
+    text-align: center;
+}
+
+.subH{
+    font-size: 2em;
+    font-weight: lighter;
+    color: white;
+    font-family: Luxurious script;
+    padding-bottom: 0;
+    text-align: center;
+}
+.main-header {
+    background-image: url(images/shampaigne.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
