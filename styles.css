@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Luxurious+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
 *{
     box-sizing: border-box;
     color: #777;
@@ -41,8 +42,8 @@ html, body{
 .restaurant-name{
     font-size: 6em;
     color: white;
-    font-weight: lighter;
-    font-family: Luxurious script;
+    font-weight: normal;
+    font-family: Tangerine;
     text-align: center;
     margin-top: 0;
     padding-top: 0;
@@ -53,14 +54,70 @@ html, body{
     font-size: 2em;
     font-weight: lighter;
     color: white;
-    font-family: Luxurious script;
+    font-family: Tangerine;
     padding-bottom: 0;
     text-align: center;
     margin-bottom: 0;
 
 }
 .main-header {
-    background-image: url(images/shampaigne.jpg);
+    background-image: url(images/shampaigneStr.jpg);
     background-size: cover;
-    padding-bottom: 150px;
+    padding-bottom: 200px;
+}
+.content-section{
+    margin: 3em; 
+}
+
+.container{
+    text-align: center;
+    padding: 0 35%;
+}
+.container2{
+    text-align: center;
+    padding: 0 25%;
+}
+.about-section {
+    margin: 6em;
+    height: fit-content;
+    min-height: 575px;
+    
+}
+.about-section.about-DelMuro{
+    background-image: linear-gradient(rgba(248, 131, 88, 0.1), white) ;
+    min-width: 365px;
+}
+.about-section.about-wall{
+    background-image: linear-gradient(rgba(169, 211, 235, 0.2),white );
+    min-width: 665px;
+}
+.experience-image{
+    margin-left: 2em;
+    margin-right: 3em;
+    float: left;
+}
+.experience-delMuro{
+    height: 400px;
+    width: 330px;
+
+}
+.experience-wall{
+    height: 400px;
+    width: 450px;
+    border-radius: 50%;
+}
+.about-paragraph{
+    margin-left: 6em;
+    margin-right: 2em;
+    padding: 1em;
+    text-align: right;   
+}
+.about-header{
+    font-family: Tangerine;
+    font-weight: lighter;
+    color: rgb(63, 63, 63);
+    font-size: 3em;
+    padding: 1em;
+    margin: 0;
+    text-align: center;
 }
