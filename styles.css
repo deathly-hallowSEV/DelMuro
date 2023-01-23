@@ -136,17 +136,17 @@ html, body{
 }
 
 .main-footer{
-    padding-top: 3em;
     background-color: rgb(88, 88, 88);
     display: flex;
     text-align: center;
+    align-items: stretch;
 }
 .footer-head{
     color:rgb(223, 197, 111);
     font-size: 4rem;
-    text-align: center;
-    padding: 3rem;
-    margin-right: 9em;
+    padding: 1rem;
+    margin: 0;
+    text-align:left;
 }
 .footer-header{
     color:rgb(212,175,55);
@@ -166,4 +166,13 @@ html, body{
 .contactUs li span:hover{
     font-size: larger;
     border-bottom: 1px solid white;
+}
+.address-div{
+    color: white;
+    text-align: left;
+    padding-left: 2rem;
+}
+.nameAddress{  
+    padding: 2rem;
+    flex-grow: 0.95;
 }
