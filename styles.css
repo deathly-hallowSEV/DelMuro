@@ -27,6 +27,28 @@ body {
   }
 /******************************************* NAVIGATION ********************************************************/
 
+
+.lang-nav{
+    padding: 2em;
+    float: left;
+}
+.social-nav{
+    padding: 2em;
+    float: right;
+}
+
+.links-ul{
+    list-style-type: none ;
+    text-align: center;
+}
+
+.links-ul li{
+    display: inline;
+    margin: 0;
+}
+.links-ul a{
+    padding: 1em;
+}
 .navUL {
     margin: 0;
 }
@@ -35,10 +57,13 @@ body {
 }
 .navUL a{
     display: inline-block;
-    padding: 2em;
+    padding: 0;
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
+}
+.navULLI a{
+    padding: 2em;
 }
 .navULLI a:hover{
     background-color: rgba(255,255, 255,.3);
@@ -50,10 +75,7 @@ body {
     background-color: rgba(0,0, 0,.5);
 }
 
-.social-nav{
-    padding: 0em;
-    float: right;
-}
+
 /******************************************* HEAD NAME ********************************************************/
 .restaurant-name{
     font-size: 6em;
@@ -227,22 +249,12 @@ body {
 }
 .footer-header{
     color:rgb(212,175,55);
-    text-align: right;
+    text-align: center;
 }
 
 .footer-ul {
     list-style-type: none;
-    text-align: right;
-}
-
-.links-ul{
-    list-style-type: none ;
     text-align: center;
-}
-.links-ul li{
-    display: inline;
-    padding: 0;
-    margin: auto;
 }
 
 .contactUs li span{  
