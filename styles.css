@@ -25,6 +25,7 @@ html{
 body {
     background:rgba(255,255, 255,0.8);
   }
+/******************************************* NAVIGATION ********************************************************/
 
 .navUL {
     margin: 0;
@@ -38,9 +39,8 @@ body {
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
-
 }
-.navUL a:hover{
+.navULLI a:hover{
     background-color: rgba(255,255, 255,.3);
 }
 .navigation{
@@ -49,6 +49,12 @@ body {
     border-bottom: 1px solid rgba(255,255, 255,.3);
     background-color: rgba(0,0, 0,.5);
 }
+
+.social-nav{
+    padding: 0em;
+    float: right;
+}
+/******************************************* HEAD NAME ********************************************************/
 .restaurant-name{
     font-size: 6em;
     color: whitesmoke;
@@ -134,8 +140,8 @@ body {
 }
 .image-text span{
     margin: auto;
+    padding: 10px 20px;
     padding-bottom: 20px;
-
 }
 .experience-image{
     max-width:100%;
@@ -228,10 +234,17 @@ body {
     list-style-type: none;
     text-align: right;
 }
+
 .links-ul{
     list-style-type: none ;
-    display: inline;
+    text-align: center;
 }
+.links-ul li{
+    display: inline;
+    padding: 0;
+    margin: auto;
+}
+
 .contactUs li span{  
     color: antiquewhite;
 }
