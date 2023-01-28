@@ -15,7 +15,6 @@ html, body{
     padding: 0;
 }
 html{
-
     background: url(images/wall/crackedWall.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -24,7 +23,6 @@ html{
 }
 body {
     background:rgba(255,255, 255,0.8);
-
   }
 
 .navUL {
@@ -49,7 +47,8 @@ body {
     font-size: 1.1em;
     border-bottom: 1px solid rgba(255,255, 255,.3);
     background-color: rgba(0,0, 0,.5);
-
+    position: fixed;
+    width: 100%;
 }
 .restaurant-name{
     font-size: 6em;
@@ -59,7 +58,6 @@ body {
     text-align: center;
     margin-top: 0;
     padding-top: 0;
-
 }
 
 .subH{
@@ -69,13 +67,18 @@ body {
     font-family: Tangerine;
     padding-bottom: 0;
     text-align: center;
-    margin-bottom: 0;
-
+    margin: 0;
+}
+.centralH{
+    margin: 0;
+    align-items: center;
+    padding: 10%;
+    padding-bottom: 15%;
 }
 .main-header {
+    margin-top: 0;
     background-image: url(images/shampaigneStr.jpg);
     background-size: cover;
-    padding-bottom: 200px;
 }
 .content-section{
     margin: 3em; 
