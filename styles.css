@@ -86,11 +86,13 @@ body {
     border-bottom: 2px solid  rgb(212,175,55);
     background-color: white;
     text-align: center;
-    padding-bottom: 30px;
+    padding: 10px 50px;
 }
 .h2content{
     color:rgb(212,175,55);
 }
+
+/*******************************************ABOUT********************************************************/
 .about-section {
     margin: 3em;
 }
@@ -101,29 +103,7 @@ body {
 .about-section.about-wall{
     background-image: linear-gradient(rgba(169, 211, 235, 0.2),white );
 }
-.experience-image{
-    max-width:100%;
-    max-height:100%;
-    object-fit: contain;
-}
-.image-span{
-    max-width: 380px;
-    margin: auto;
-}
-.image-text{
-    flex-wrap: wrap;
-    padding:10px 50px;
-    display: flex;
-    justify-content: space-around;
-}
-.experience-wall{
-    border-radius: 50%;
-}
-.about-paragraph{
-    max-width: 600px;
-    padding: 10px 50px;
-    text-align: right;
-}
+
 .about-main-header{
     font-family: EB Garamond;
     font-weight: lighter;
@@ -142,6 +122,34 @@ body {
     text-align: center;
 }
 
+.image-text{
+    padding-left: 10px 50px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image-span{
+    max-width: 350px;
+}
+.image-text span{
+    margin: auto;
+    padding-bottom: 20px;
+
+}
+.experience-image{
+    max-width:100%;
+    max-height:100%;
+}
+.about-paragraph{
+    max-width: 500px;
+    text-align: center;
+}
+
+.experience-wall{
+    border-radius: 50%;
+}
+/*******************************************ABOUT********************************************************/
 .location{
     background-color: white;
     padding-top: 1%;
