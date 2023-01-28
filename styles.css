@@ -110,11 +110,13 @@ body {
 }
 .content-section{
     margin: auto; 
-    border-top: 2px solid  rgb(212,175,55);
-    border-bottom: 2px solid  rgb(212,175,55);
     background-color: white;
     text-align: center;
     padding: 10px 50px;
+}
+.gold-border{
+    border-top: 2px solid  rgb(212,175,55);
+    border-bottom: 2px solid  rgb(212,175,55);
 }
 .h2content{
     color:rgb(212,175,55);
@@ -274,4 +276,15 @@ body {
 }
 .nameAddress{  
     padding: 2rem;
+}
+.menu-section{
+    text-align: center;
+    padding: 2em;
+    background-color: white;
+    margin: 4em 6em;
+    
+}
+.grm{
+    font-size: 0.8em;
+    font-style: italic;
 }
