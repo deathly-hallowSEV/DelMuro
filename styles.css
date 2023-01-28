@@ -79,21 +79,18 @@ body {
     background-size: cover;
 }
 .content-section{
-    margin: 3em; 
+    margin: auto; 
     border-top: 2px solid  rgb(212,175,55);
     border-bottom: 2px solid  rgb(212,175,55);
+    background-color: white;
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 .container{
-    background-color: white;
-    text-align: center;
-    padding: 0 35%;
+
 }
-.container2{
-    background-color: white;
-    text-align: center;
-    padding: 0 25%;
-}
+
 .h2content{
     color:rgb(212,175,55);
 }
