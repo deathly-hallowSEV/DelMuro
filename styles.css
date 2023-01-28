@@ -202,12 +202,13 @@ body {
     text-align: center;
     align-items: stretch; 
     width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .footer-head{
     color:rgb(223, 197, 111);
     font-size: 4rem;
-    padding: 1rem;
-    margin: 0;
+    margin: auto;
     text-align:left;
 }
 .footer-header{
@@ -218,6 +219,10 @@ body {
 .footer-ul {
     list-style-type: none;
     text-align: right;
+}
+.links-ul{
+    list-style-type: none ;
+    display: inline;
 }
 .contactUs li span{  
     color: antiquewhite;
@@ -236,5 +241,4 @@ body {
 }
 .nameAddress{  
     padding: 2rem;
-    flex-grow: 0.95;
 }
