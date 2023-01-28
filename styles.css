@@ -78,6 +78,7 @@ body {
     margin-top: 0;
     background-image: url(images/shampaigneStr.jpg);
     background-size: cover;
+    background-position: center 0;
 }
 .content-section{
     margin: auto; 
