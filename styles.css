@@ -105,20 +105,22 @@ body {
     object-fit: contain;
 }
 .image-span{
+    max-width: 380px;
     margin: auto;
 }
 .image-text{
-    padding: 50px;
+    flex-wrap: wrap;
+    padding:10px 50px;
     display: flex;
     justify-content: space-around;
- 
 }
 .experience-wall{
     border-radius: 50%;
 }
 .about-paragraph{
- padding: 0 50px;
- text-align: right;
+    max-width: 600px;
+    padding: 10px 50px;
+    text-align: right;
 }
 .about-main-header{
     font-family: EB Garamond;
