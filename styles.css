@@ -28,36 +28,18 @@ body {
 /******************************************* NAVIGATION ********************************************************/
 
 
-.lang-nav{
-    padding: 2em;
-    float: left;
-}
-.social-nav{
-    padding: 2em;
-    float: right;
-}
-
-.links-ul{
-    list-style-type: none ;
-    text-align: center;
-}
-
-.links-ul li{
-    display: inline;
-    margin: 0;
-}
-.links-ul a{
-    padding: 1em;
-}
 .navUL {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
     margin: 0;
+    padding: 0 2em;
 }
 .navUL li{
     display: inline;
 }
 .navUL a{
     display: inline-block;
-    padding: 0;
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
@@ -75,6 +57,31 @@ body {
     background-color: rgba(0,0, 0,.5);
 }
 
+.lang-nav{
+    float: left;
+    margin-right: auto;
+}
+.social-nav{
+    float: right;
+    margin-left: auto;
+
+}
+
+.links-ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.links-ul li{
+    display: inline;
+    margin: 0;
+}
+
+.icons-nav{
+    padding-top: 2em;
+    padding-bottom: 0;
+}
 
 /******************************************* HEAD NAME ********************************************************/
 .restaurant-name{
